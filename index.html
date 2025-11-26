@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Hashem Ghorbel – Resume</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root {
+      --bg: #f5f5f7;
+      --card: #ffffff;
+      --text: #222222;
+      --muted: #555555;
+      --accent: #b51f1f; /* subtle Harvard-ish red */
+      --border: #dddddd;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    .page {
+      max-width: 900px;
+      margin: 32px auto;
+      padding: 24px 20px 40px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.04);
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 16px;
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 8px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    header .tagline {
+      color: var(--muted);
+      font-size: 13px;
+      margin-top: 4px;
+    }
+
+    header .contact {
+      margin-top: 8px;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
+    header .contact a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    header .contact a:hover {
+      text-decoration: underline;
+    }
+
+    .section {
+      margin-top: 18px;
+    }
+
+    .section-title {
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--accent);
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 4px;
+      margin-bottom: 8px;
+    }
+
+    .item {
+      margin-bottom: 10px;
+    }
+
+    .item-header {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    .item-header span.right {
+      text-align: right;
+      color: var(--muted);
+      font-weight: 500;
+    }
+
+    .item-subline {
+      font-size: 13px;
+      color: var(--muted);
+      margin-top: 2px;
+    }
+
+    .item-subline span {
+      display: inline-block;
+    }
+
+    ul {
+      list-style: disc;
+      padding-left: 18px;
+      margin: 4px 0 0;
+      font-size: 13px;
+    }
+
+    li {
+      margin-bottom: 2px;
+    }
+
+    .skills-block p {
+      margin: 2px 0;
+      font-size: 13px;
+    }
+
+    @media (max-width: 640px) {
+      .page {
+        margin: 0;
+        border-radius: 0;
+        border-left: none;
+        border-right: none;
+      }
+
+      .item-header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .item-header span.right {
+        text-align: left;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header>
+      <h1>HASHEM GHORBEL</h1>
+      <div class="tagline">End-to-End AI & Software · Data-Centric Projects · Entrepreneurial Mindset</div>
+      <div class="contact">
+        Tunis, Tunisia • +216 24 565 094 •
+        <a href="mailto:hashemghorbel@gmail.com">hashemghorbel@gmail.com</a><br />
+        <a href="https://www.linkedin.com/in/yourlinkedin" target="_blank" rel="noreferrer">linkedin.com/in/yourlinkedin</a> •
+        <a href="https://github.com/yourusername" target="_blank" rel="noreferrer">github.com/yourusername</a>
+      </div>
+    </header>
+
+    <!-- EDUCATION -->
+    <section class="section">
+      <div class="section-title">Education</div>
+
+      <div class="item">
+        <div class="item-header">
+          <span>Higher Institute of Digital Engineering (HIDE) – Integrated Engineering Program</span>
+          <span class="right">Tunis, Beb Saadoun · Expected 2030</span>
+        </div>
+        <div class="item-subline">
+          1st-year engineering student, preparatory cycle focused on computer science and applied mathematics.
+        </div>
+        <ul>
+          <li>Relevant coursework: Machine Learning, Neural Networks, Automation, Algorithms &amp; Data Structures.</li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <div class="item-header">
+          <span>Online Certifications – Harvard University (edX)</span>
+          <span class="right">&nbsp;</span>
+        </div>
+        <ul>
+          <li>CS50x: Introduction to Computer Science – final grade: 97%+.</li>
+          <li>CS50: Introduction to Artificial Intelligence with Python – final grade: 97%+.</li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <div class="item-header">
+          <span>Lycée Ibn Rachik – Baccalaureate (High School Diploma)</span>
+          <span class="right">Ben Arous, Ezzahra · 2025</span>
+        </div>
+        <ul>
+          <li>Graduated with high honors; overall score 17.60/20; ranked 46th nationwide.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section">
+      <div class="section-title">Experience</div>
+
+      <div class="item">
+        <div class="item-header">
+          <span>MBS – End-to-End Machine Learning &amp; Data Engineering (Part-time)</span>
+          <span class="right">Remote · May 2025 – Present</span>
+        </div>
+        <ul>
+          <li>Transformed static, unstructured documents into structured datasets for internal ML prototypes and document intelligence tools.</li>
+          <li>Built semi-automated data pipelines for cleaning, normalizing, and validating educational content.</li>
+          <li>Defined entities, relations, and metadata standards to make educational content searchable and model-ready.</li>
+          <li>Collaborated on UX concepts for AI-powered search, recommendation, and drafting tools.</li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <div class="item-header">
+          <span>Personal Projects – Software &amp; ML Developer</span>
+          <span class="right">Tunis, Tunisia · 2025 – Present</span>
+        </div>
+        <ul>
+          <li>Designed a modular C++ banking system backed by JSON storage for accounts, loans, and transactions.</li>
+          <li>Implemented core banking operations with robust error handling, input validation, and command-line UX.</li>
+          <li>Built Python CLI tools to split/merge PDFs and convert Markdown + YAML into print-ready series.</li>
+          <li>Automated overlays (QR codes, logos, callouts) on standardized PDF templates to reduce manual work.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ENTREPRENEURIAL EXPERIENCE -->
+    <section class="section">
+      <div class="section-title">Entrepreneurial Experience</div>
+
+      <div class="item">
+        <div class="item-header">
+          <span>Independent Toy Retail Venture – Figurines &amp; Imported Goods</span>
+          <span class="right">Tunis, Tunisia · 2020 – 2023</span>
+        </div>
+        <ul>
+          <li>Managed end-to-end operations: sourcing, pricing, inventory, and basic bookkeeping.</li>
+          <li>Led customer acquisition via social media, word-of-mouth, and direct outreach.</li>
+          <li>Drove sales and repeat business through relationship-based selling and responsive after-sales support.</li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <div class="item-header">
+          <span>Independent Cookie &amp; Snack Business – Schools &amp; Cafés</span>
+          <span class="right">Tunis, Tunisia · 2024 – 2025</span>
+        </div>
+        <ul>
+          <li>Built and serviced a B2B client base of schools and cafés, negotiating pricing and delivery terms.</li>
+          <li>Planned production and logistics for hundreds of units per batch to meet recurring orders.</li>
+          <li>Increased order volume and retention with targeted offers, feedback-based product improvements, and consistent service quality.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- SELECTED TECHNICAL PROJECTS -->
+    <section class="section">
+      <div class="section-title">Selected Technical Projects</div>
+
+      <div class="item">
+        <ul>
+          <li>Implemented a high-performance in-memory dictionary using hash tables to query a ~140K-entry lexicon in near constant time.</li>
+          <li>Designed an adversarial decision-making agent using minimax-style search to compute optimal moves in a zero-sum environment.</li>
+          <li>Prototyped a probabilistic ranking system modeled as a Markov chain to estimate steady-state importance scores for linked entities.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- LEADERSHIP & ACTIVITIES -->
+    <section class="section">
+      <div class="section-title">Leadership &amp; Activities</div>
+
+      <div class="item">
+        <div class="item-header">
+          <span>Artificial Intelligence Tunisian Association (ATIA) – HIDE Branch</span>
+          <span class="right">Tunis, Beb Saadoun · Nov 2025 – Present</span>
+        </div>
+        <ul>
+          <li>Founded the ATIA HIDE branch to connect students interested in AI, ML, and data science.</li>
+          <li>Organize study groups, mini-challenges, and introductory workshops on end-to-end AI projects and ethical AI.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- SKILLS & INTERESTS -->
+    <section class="section">
+      <div class="section-title">Skills &amp; Interests</div>
+      <div class="skills-block">
+        <p><strong>Technical:</strong> Python, C++, C#, JavaScript (familiar), Bash; scikit-learn, NumPy, pandas; Git &amp; GitHub; Linux (Arch), VS Code, Zed; PDF tooling (PyPDF2, ReportLab).</p>
+        <p><strong>Languages:</strong> Arabic (Native); French (Fluent); English (Fluent – technical and academic).</p>
+        <p><strong>Interests:</strong> End-to-end AI projects (data + models + UX); open-source tooling for education; teaching/tutoring math &amp; CS; competitive programming &amp; coding puzzles.</p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
